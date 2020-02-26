@@ -1,0 +1,142 @@
+h3 {
+  text-align: center;
+  -webkit-text-stroke: 0.1px white;
+  -webkit-text-fill-color: blue;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 4em;
+  color: white;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80");
+  background-size: cover;
+  font-family: Lato;
+}
+
+p {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#content {
+  text-align: center;
+  padding-top: 0%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#AG {
+  -webkit-text-stroke: 0.1px white;
+  -webkit-text-fill-color: blue;
+}
+
+.mainAsk {
+  align-content: flex-end;
+}
+
+button {
+  align-self: auto;
+  width: 125px;
+  padding: 0.4%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 10px 12px rgba(0, 0, 0, 0.1);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.text-input {
+  position: relative;
+  margin-top: 50px;
+}
+input[type="text"] {
+  margin-top: 0%;
+  margin-left: 29%;
+  /* display: inline-block; */
+  width: 500px;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 10px 10px 10px 100px;
+  transition: all 0.1s ease-out;
+}
+
+input[type="text"] + label {
+  margin-top: 0%;
+  margin-left: 29%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  border-radius: 3px 0 0 3px;
+  padding: 0 20px;
+  background: #1685e0;
+  transform: translateZ(0) translateX(0);
+  transition: all 0.3s ease-in;
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+input[type="text"]:focus + label {
+  transform: translateY(-120%) translateX(0%);
+  border-radius: 3px;
+  opacity: 0;
+  transition: all 0.1s ease-out;
+}
+
+input[type="text"]:focus {
+  padding: 10px;
+  transition: all 0.3s ease-out;
+  transition-delay: 0.2s;
+}
+
+li {
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+.msg_cotainer {
+  width: max-content;
+  margin-top: 27%;
+  margin-bottom: 4%;
+  margin-left: 320px;
+  border-radius: 25px;
+  background-color: #82ccdd;
+  padding: 13px;
+  font-size: large;
+  position: relative;
+}
+.msg_time {
+  position: absolute;
+  left: 0;
+  margin-left: 5%;
+  font-size: 3rem;
+  bottom: -20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+
+.img_cont_msg {
+  height: 40px;
+  width: 40px;
+}
