@@ -1,2 +1,0 @@
-# DBSFront
-frontpage of dbs
