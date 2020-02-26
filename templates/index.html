@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        hoi
+    </title>
+</head>
+<body>
+     
+    <form>
+        {% for task in log %}
+        <p> {{ task.content }} </p>
+            <input type="text"  name="content">
+            <input type="submit"  value = "send:">
+        {% endfor %}
+        </form>
+       <button type="button"> <a heref="" >send</a></button>
+      
+
+</body>
