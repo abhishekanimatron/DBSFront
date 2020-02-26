@@ -46,10 +46,14 @@ p {
   align-content: flex-end;
 }
 
+#display {
+  opacity: 0;
+}
+
 button {
   align-self: auto;
   width: 125px;
-  padding: 0.4%;
+  padding: 0.7%;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -61,13 +65,13 @@ button {
 
 .text-input {
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 input[type="text"] {
-  margin-top: 0%;
+  margin-top: -50%;
   margin-left: 29%;
   /* display: inline-block; */
-  width: 500px;
+  width: 385px;
   height: 40px;
   box-sizing: border-box;
   outline: none;
@@ -78,7 +82,7 @@ input[type="text"] {
 }
 
 input[type="text"] + label {
-  margin-top: 0%;
+  margin-top: 3.8%;
   margin-left: 29%;
   position: absolute;
   top: 0;
@@ -117,7 +121,7 @@ li {
 
 .msg_cotainer {
   width: max-content;
-  margin-top: 27%;
+  margin-top: 23%;
   margin-bottom: 4%;
   margin-left: 320px;
   border-radius: 25px;
@@ -136,7 +140,25 @@ li {
   font-size: 15px;
 }
 
-.img_cont_msg {
-  height: 40px;
-  width: 40px;
+.msg_time_send {
+  width: max-content;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+}
+
+.msg_cotainer_send {
+  width: max-content;
+  float: left;
+  margin-left: 820px;
+  margin-top: auto;
+  margin-bottom: 2%;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #78e08f;
+  padding: 10px;
+  position: relative;
 }
